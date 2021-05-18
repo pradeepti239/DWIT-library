@@ -1,0 +1,50 @@
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vmin;
+            margin: auto;
+            font-family: Poppins;
+        }
+
+        .container .button {
+            font-size: 1vw;
+            border: 0;
+            margin: 0;
+            background-color: #EF7634;
+            color: #ffffff;
+            width: 25%;
+        }
+
+        .container .button:hover {
+            /* background-color: #4CAF50; */
+            filter: brightness(115%);
+        }
+
+        .content{
+            align-self: center;
+        }
+
+        .content h2{
+            font-size: 4vw;
+        
+            margin:0;
+            line-height: 4vw;
+            color: #0f5288;
+        }
+
+        .content h1{
+            font-size: 5.5vw;
+            font-weight: bolder;
+            margin:0;
+            line-height: 5.5vw;
+            color: #0f5288;
+        }
+
+        .content p{
+            font-size: 1vw;
+            padding: 5% 0;
+        }
+
+
